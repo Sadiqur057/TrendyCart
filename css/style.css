@@ -416,3 +416,65 @@ header{
         }
 
 }
+
+
+
+
+
+@media screen and (max-width:620px) {
+    .display-img {
+        height: 20vh;
+    }
+    .display-img img{
+        height: 100%;
+        object-position: center;
+        object-fit: cover;
+    }
+
+    .display-content {
+        padding: 0 ;
+    }
+    .heading-1{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .heading-2{
+        font-size: 9px;
+    }
+    .btn{
+        font-size: 10px;
+        height: 16px;
+        padding: 0 6px;
+        margin: 5px 0;
+
+    }
+
+    .category-heading{
+        letter-spacing: .1em;
+        font-size: 1.2em;
+        margin: 40px 0 20px 20px;
+        max-height: 5em;
+        font-weight: 700;
+    }
+    .items-heading-1{
+        font-size: 15px;
+    }
+    .items-heading-2{
+        font-size: 15px;
+    }
+    .category-items a .image-desc{
+        font-size: 14px;
+    }
+    .newuser-container{
+        height: 30vh;
+    }
+    .newuser-content p{
+        font-size: 14px;
+    }
+    .newuser-content .coupon{
+        font-size: 10px;
+    }
+
+
+
+}
