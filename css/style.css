@@ -243,7 +243,7 @@ header{
 /* ########## New User  ########## */
 .newuser-container{
     display: flex;
-    height: 60vh;
+    height: 400px;
     justify-content: space-between;
 }
 .newuser-img{
@@ -281,7 +281,7 @@ header{
 }
 
 
-@media screen and (max-width:1080px) {
+@media screen and (max-width:1080px){
 
     .hamburger-menu{
         height: 45px;
@@ -421,7 +421,7 @@ header{
 
 
 
-@media screen and (max-width:620px) {
+@media screen and (max-width:760px) {
     .display-img {
         height: 20vh;
     }
@@ -466,7 +466,7 @@ header{
         font-size: 14px;
     }
     .newuser-container{
-        height: 30vh;
+        height: 200px;
     }
     .newuser-content p{
         font-size: 14px;
@@ -474,7 +474,5 @@ header{
     .newuser-content .coupon{
         font-size: 10px;
     }
-
-
 
 }
