@@ -216,6 +216,7 @@ header {
     flex-direction: column;
     width: 240px;
     height: 320px;
+    margin-bottom: 10px;
 }
 
 .category-img {
@@ -245,7 +246,7 @@ header {
 .btn-purchase{
     box-sizing: border-box;
     display: inline-block;
-    background-color: #0000009d;
+    background-color: #f93d63f0;
     font-size: 18px;
     margin: 0 auto;
     width: 100%;
@@ -255,7 +256,7 @@ header {
     border-radius: 2px;
     position: relative;
     padding: 7px 0;
-    bottom: 20%;
+    bottom: 16%;
     z-index: 10;
 }
 .category-items .image-desc:hover {
@@ -326,11 +327,17 @@ header {
 /* ############## mens shopping ############ */
 .category-men-img {
     height: 303px;
+    align-self: center;
 }
 
 .category-men-img img {
     height: 100%;
+    display: block;
+    object-position: center;
+    object-fit: contain;
 }
+
+
 
 /* ############### footer container ############ */
 
