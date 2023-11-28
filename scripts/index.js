@@ -17,7 +17,7 @@ function displayHeader() {
       <nav class="navbar-container container">
         <div class="logo-container">
           <a href="../index.html"
-            ><img src="TrendyCart/images/cart.png" class="logo-img" alt=""
+            ><img src="./TrendyCart/images/cart.png" class="logo-img" alt=""
           /></a>
         </div>
         <input type="checkbox" id="check" class="hamburger-checkbox" />
@@ -54,7 +54,7 @@ function displayHeader() {
               <span class="action-name">Wishlist</span>
               <span class="wishlist-item-count">0</span>
             </a>
-            <a class="action-container" href="TrendyCart/pages/checkout.html">
+            <a class="action-container" href="./TrendyCart/pages/checkout.html">
               <span class="material-symbols-outlined">shopping_bag </span>
               <span class="action-name">Bag</span>
               <span class="bag-item-count">0</span>
