@@ -17,7 +17,7 @@ function displayHeader() {
       <nav class="navbar-container container">
         <div class="logo-container">
           <a href="../../TrendyCart"
-            ><img src="../../images/cart.png" class="logo-img" alt="logo"
+            ><img src="../images/cart.png" class="logo-img" alt="logo"
           /></a>
         </div>
         <input type="checkbox" id="check" class="hamburger-checkbox" />
