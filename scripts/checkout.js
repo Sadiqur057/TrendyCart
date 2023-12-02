@@ -11,8 +11,8 @@ function onLoad(){
 function displayBagSummary(){
   let displayBagSummaryElement = document.querySelector('.bag-summary');
   let totalItems = bagItemsObjects.length;
-  let totalMRP = 2;
-  let totalDiscount = 2;
+  let totalMRP = 0;
+  let totalDiscount = 0;
   bagItemsObjects.forEach((bagItem)=>{
     totalMRP += bagItem.originalPrice;
     totalDiscount += bagItem.originalPrice-bagItem.currentPrice;
@@ -79,7 +79,7 @@ function generateItemHTML(item){
     return `
     <div class="bag-item-container">
     <div class="item-left-part">
-      <img src="../${item.itemImage}" alt="" class="bag-item-img" />
+      <img src="./${item.itemImage}" alt="" class="bag-item-img" />
     </div>
     <a href="#" class="checkout-close-btn" onclick="removeFromBag(${item.id})">
       <span class="material-symbols-outlined ">
