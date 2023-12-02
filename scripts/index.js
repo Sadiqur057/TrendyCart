@@ -4,7 +4,7 @@ onLoad();
 function onLoad() {
     let bagItemsStr = localStorage.getItem('bagItemsId');
     bagItems = bagItemsStr ? JSON.parse(bagItemsStr) : [];
-    displayHeader()
+    displayHeader();
     displayItemOnHomePage();
     displayBagIcon();
     displayFooter();
@@ -16,8 +16,8 @@ function displayHeader() {
     headerContent.innerHTML = `
       <nav class="navbar-container container">
         <div class="logo-container">
-          <a href="../index.html"
-            ><img src="./images/cart.png" class="logo-img" alt="logo"
+          <a href="../../TrendyCart"
+            ><img src="../../images/cart.png" class="logo-img" alt="logo"
           /></a>
         </div>
         <input type="checkbox" id="check" class="hamburger-checkbox" />
