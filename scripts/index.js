@@ -16,7 +16,7 @@ function displayHeader() {
     headerContent.innerHTML = `
       <nav class="navbar-container container">
         <div class="logo-container">
-          <a href="../../TrendyCart"
+          <a href="../"
             ><img src="../images/cart.png" class="logo-img" alt="logo"
           /></a>
         </div>
@@ -54,7 +54,7 @@ function displayHeader() {
               <span class="action-name">Wishlist</span>
               <span class="wishlist-item-count">0</span>
             </a>
-            <a class="action-container" href="../../TrendyCart/pages/checkout.html">
+            <a class="action-container" href="../checkout.html">
               <span class="material-symbols-outlined">shopping_bag </span>
               <span class="action-name">Bag</span>
               <span class="bag-item-count">0</span>
